@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+section.banner{
+	position: relative;
+	min-height: 500px;
+	/*background-image: url('../imagens/img.jpg');*/
+	background-image: url('../imagens/fundo.jpg');
+	text-align: center;
+	padding-left: 40px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	/*margin-top: 73px;*/
+}
+.clear{
+	clear: both;
+}
+
+
+section.banner>.container{
+	
+	padding: 200px 0;
+	position: relative;
+	z-index: 2;
+	/*background: red;*/
+	
+}
+
+
+.overlay{
+	
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	background: rgba(0,0,0,0.8);
+}
+
+.box{
+	position: relative;
+}
+
+
+.chamada-banner h2{
+	color: #f8f9fa;
+	font-size: 60px;
+	font-style: italic;
+
+}
+.chamada-banner p{
+	color: #ADB5BD;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 300 !important;
+
+}
+section.cadastro-lead{
+	padding: 30px 0;
+	background: #ccc;
+}
+section.cadastro-lead h2{
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+section.cadastro-lead form{
+	vertical-align: middle;
+}
+
+section.cadastro-lead input[type=text]{
+	width: 80%;
+	height: 35px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+}
+section.cadastro-lead input[type=submit]{
+	width: 12%;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px;
+	background: black;
+
+}
+section.cadastro-lead input[value]{
+	color: white;
+	font-size: 18px;
+}
+section.depoimentos{
+	padding: 80px 80px;
+	background: black;
+	color: white;
+}
+section.linha{
+	padding: 2px 0;
+	background: white;
+}
+.diferenciais-container{
+	margin-top: 40px;
+}
+
+
+section.diferenciais{
+	padding: 40px 0;
+	background: black;
+	color: white;
+	
+}
+section.equipe{
+	padding: 30px 0;
+	background: white;
+	text-align: center;
+}
+
+.equipe-container{padding: 30px 0;}
+.equipe-single{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 20px 10px;
+	border:1px solid black;
+	box-shadow:8px 7px 5px -3px rgba(20,20,20,0.6);
+	text-align: left;
+}
+.user-picture{
+	width: 100%;
+	padding-top: 100%;
+	position: relative;
+
+
+}
+.user-picture-child{
+	margin: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	border-radius: 10px;
+	height: 100%;
+	background: black;
+	
+}
+section.final-site{
+	padding: 90px 0;
+	color: white;
+	background: black;
+
+}
+footer{
+	padding: 50px 0;
+	
+}
+
+@media (max-width: 900px) { 
+	 
+	 .user-picture{
+	 padding-top: 40%;	
+	 width: 40%;
+	 height: 40%;
+	 position: relative;
+	 transform: translate(75%);
+	 }
+	 .equipe-single h3{
+	 	text-align: center;
+	 }
+
+	
+    
+
+  	section.banner{
+		position: relative;
+		text-align: center;
+		padding-left: -50px;
+		display: inline-block;
+		
+
+	}
+
+
+}
+
